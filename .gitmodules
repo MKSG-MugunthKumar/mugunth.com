@@ -1,0 +1,9 @@
+[submodule "themes/hugo-liftoff"]
+	path = themes/hugo-liftoff
+	url = https://github.com/wjh18/hugo-liftoff.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/congo"]
+	path = themes/congo
+	url = https://github.com/jpanther/congo.git

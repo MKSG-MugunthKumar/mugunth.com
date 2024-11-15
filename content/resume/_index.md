@@ -1,17 +1,18 @@
 ---
 title: "Resume"
-type: "resume"
-layout: "resume"
-url: "/resume"
+layout: "simple"
+sharingLinks: false
 showDate: false
 showAuthor: false
 showPagination: false
-showReadingTime: false
-showTableOfContents: true
 ---
 
 # Mugunth Kumar
 Engineering Manager & Principal Engineer
+
+{{< button href="/resume.pdf" target="_self" >}}
+Download PDF Version
+{{< /button >}}
 
 ## Professional Experience
 

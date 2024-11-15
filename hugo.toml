@@ -1,56 +1,75 @@
 baseURL = "https://mk.sg/"
-languageCode = "en-au"
+defaultContentLanguage = "en"
+languageCode = "en"
 title = "Mugunth Kumar (MK)"
-theme = "hugo-liftoff"
+theme = "congo"
 
 [params]
-# Site Parameters
-description = "Engineering Manager & Principal Engineer with 20 years of experience"
-showPostNavLinks = true
-showShareButtons = false
-showCodeCopyButtons = true
-displayFullLangName = true
-enableSearch = true
+  description = "Engineering Manager & Principal Engineer"
 
-# Author Parameters
-[params.author]
-name = "Mugunth Kumar"
-email = "mugunth@mfamily.club"
-location = "Melbourne, Australia"
-phone = "0429 924 820"
-linkedin = "https://linkedin.com/in/mugunthkumar"
+  [params.homepage]
+    layout = "profile"
+    showRecent = false
 
-# Main Menu Items
+  [params.header]
+    layout = "hybrid"
+    showTitle = true
+
+  [params.footer]
+    showCopyright = true
+    showThemeAttribution = false
+    showAppearanceSwitcher = true
+
+  [params.article]
+    showDate = false
+    showDateUpdated = false
+    showAuthor = false
+    showBreadcrumbs = false
+    showDraftLabel = true
+    showEdit = false
+    showHeadingAnchors = true
+    showPagination = false
+    showReadingTime = false
+    showTableOfContents = true
+    showTaxonomies = false
+    showWordCount = false
+
+  [params.profile]
+    description = """
+    Engineering Manager & Principal Engineer with nearly 20 years of experience in
+    full-stack software architecture, design, and development. Managed software engineering
+    teams for over a decade, building and mentoring high-performance teams.
+    """
+    subtitle = "Engineering Manager & Principal Engineer"
+
+  # Author information
+  [params.author]
+    name = "Mugunth Kumar"
+    email = "mugunth@mfamily.club"
+    location = "Melbourne, Australia"
+
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 1
+  name = "About"
+  pageRef = "about"
+  weight = 10
 
 [[menu.main]]
-name = "Experience"
-url = "/experience"
-weight = 2
+  name = "Experience"
+  pageRef = "experience"
+  weight = 20
 
 [[menu.main]]
-name = "Resume"
-url = "/resume"
-weight = 3
+  name = "Resume"
+  pageRef = "resume"
+  weight = 30
 
 [[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 4
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
 
-# Module Configuration
-[module]
-[[module.imports]]
-path = "github.com/wjh18/hugo-liftoff"
+[markup.highlight]
+  noClasses = false
 
-# Resume Section Parameters
-[params.resume]
-enable = true
-showPagination = false
-showDate = false
-showAuthor = false
-showReadingTime = false
-showTaxonomies = false
+[markup.goldmark.renderer]
+  unsafe = true
