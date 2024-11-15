@@ -1,73 +1,77 @@
-baseURL: "https://mugunth.dev/"
-languageCode: "en-us"
-title: "Mugunth Kumar"
-theme: "liftoff"
+baseURL = "https://mk.sg/"
+languageCode = "en-au"
+title = "Mugunth Kumar (MK)"
+theme = "liftoff"
 
-params:
-  theme:
-    defaultTheme: "dark"
-    disableThemeToggle: false
-    
-  profileMode:
-    enabled: true
-    title: "Mugunth Kumar"
-    subtitle: "Engineering Manager & Principal Engineer"
-    imageUrl: "/images/profile.jpg"
-    buttons:
-      - name: Resume
-        url: "/resume.pdf"
-      - name: Contact
-        url: "mailto:mugunth@mfamily.club"
+[params.theme]
+defaultTheme = "dark"
+disableThemeToggle = false
 
-  # Professional Information
-  author:
-    name: "Mugunth Kumar"
-    email: "mugunth@mfamily.club"
-    location: "Melbourne, Australia"
-    phone: "0429 924 820"
-    linkedin: "https://linkedin.com/in/mugunthkumar"
+[params.profileMode]
+enabled = true
+title = "Mugunth Kumar (MK)"
+subtitle = "Engineering Manager & Principal Engineer"
+imageUrl = "/images/profile.jpg"
 
-  # Skills Section
-  skills:
-    enabled: true
-    title: "Skills & Expertise"
-    items:
-      - "Engineering Leadership"
-      - "Mobile Development (iOS/Android)"
-      - "Team Building & Mentoring"
-      - "Agile Project Management"
-      - "System Architecture"
-      - "Cloud Infrastructure (AWS/Azure)"
+[[params.profileMode.buttons]]
+name = "Resume"
+url = "/resume.pdf"
 
-  # Experience Section
-  experience:
-    enabled: true
-    title: "Professional Experience"
+[[params.profileMode.buttons]]
+name = "Contact"
+url = "mailto:mugunth@mfamily.club"
 
-  # Publications Section
-  publications:
-    enabled: true
-    title: "Publications"
+[params.author]
+name = "Mugunth Kumar"
+email = "mugunth@mfamily.club"
+location = "Melbourne, Australia"
+phone = "0429 924 820"
+linkedin = "https://linkedin.com/in/mugunthkumar"
 
-  footer:
-    enabled: true
-    credit: false
+[params.skills]
+enabled = true
+title = "Skills & Expertise"
+items = [
+    "Engineering Leadership",
+    "Mobile Development (iOS/Android)",
+    "Team Building & Mentoring",
+    "Agile Project Management",
+    "System Architecture",
+    "Cloud Infrastructure (AWS/Azure)"
+]
 
-menu:
-  main:
-    - identifier: "about"
-      name: "About"
-      url: "/about"
-      weight: 10
-    - identifier: "experience"
-      name: "Experience"
-      url: "/experience"
-      weight: 20
-    - identifier: "resume"
-      name: "Resume"
-      url: "/resume"
-      weight: 30
-    - identifier: "contact"
-      name: "Contact"
-      url: "/contact"
-      weight: 40
+[params.experience]
+enabled = true
+title = "Professional Experience"
+
+[params.publications]
+enabled = true
+title = "Publications"
+
+[params.footer]
+enabled = true
+credit = false
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 10
+
+[[menu.main]]
+identifier = "experience"
+name = "Experience"
+url = "/experience"
+weight = 20
+
+[[menu.main]]
+identifier = "resume"
+name = "Resume"
+url = "/resume"
+weight = 30
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
+weight = 40
