@@ -1,16 +1,17 @@
 name: Generate Resume PDF
 on:
   push:
-    paths:
-      - 'content/resume/**'
-      - 'layouts/resume/**'
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
-  convert-to-pdf:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -40,8 +41,8 @@ jobs:
             --margin "20mm" \
             --printBackground
 
-      - name: Deploy to Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Create Artifact
+        uses: actions/upload-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          name: resume-pdf
+          path: ./public/resume.pdf

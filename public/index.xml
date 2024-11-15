@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Mugunth Kumar (MK)</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Mugunth Kumar (MK)</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <managingEditor>mugunth@mfamily.club (Mugunth Kumar)</managingEditor>
-    <webMaster>mugunth@mfamily.club (Mugunth Kumar)</webMaster>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mugunth Kumar (MK)</title><link>https://mk.sg/</link><description>Recent content on Mugunth Kumar (MK)</description><generator>Hugo</generator><language>en</language><managingEditor>mugunth@mfamily.club (Mugunth Kumar)</managingEditor><webMaster>mugunth@mfamily.club (Mugunth Kumar)</webMaster><atom:link href="https://mk.sg/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
