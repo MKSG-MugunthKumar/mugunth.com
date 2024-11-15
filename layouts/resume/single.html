@@ -1,86 +1,19 @@
 {{ define "main" }}
-<article class="resume-container max-w-4xl mx-auto px-4 py-8 print:py-2 print:px-6">
-    <!-- Header -->
-    <header class="text-center mb-8 print:mb-4">
-        <h1 class="text-4xl font-bold mb-2 print:text-3xl">{{ .Site.Params.author.name }}</h1>
-        <div class="flex justify-center items-center space-x-4 text-sm print:text-xs">
-            <span>{{ .Site.Params.author.location }}</span>
-            <span>•</span>
-            <span>{{ .Site.Params.author.phone }}</span>
-            <span>•</span>
-            <a href="mailto:{{ .Site.Params.author.email }}">{{ .Site.Params.author.email }}</a>
-            <span>•</span>
-            <a href="{{ .Site.Params.author.linkedin }}" target="_blank">LinkedIn</a>
-        </div>
+<article class="max-w-prose mx-auto py-8">
+    <header class="mb-8">
+        <h1 class="text-4xl font-bold">{{ .Title }}</h1>
     </header>
 
-    <!-- Summary -->
-    <section class="mb-8 print:mb-4">
-        <div class="prose max-w-none">
-            {{ .Content }}
-        </div>
-    </section>
+    <div class="prose max-w-none">
+        {{ .Content }}
+    </div>
 
-    <!-- Experience -->
-    <section class="mb-8 print:mb-4">
-        <h2 class="text-2xl font-bold mb-4 print:text-xl">Professional Experience</h2>
-        {{ range .Params.experience }}
-        <div class="mb-6 print:mb-3 print:break-inside-avoid">
-            <div class="flex justify-between items-start">
-                <div>
-                    <h3 class="text-xl font-semibold print:text-lg">{{ .role }}</h3>
-                    <p class="text-lg print:text-base">{{ .company }}</p>
-                </div>
-                <p class="text-sm print:text-xs">{{ .period }}</p>
-            </div>
-            <ul class="mt-2 list-disc list-inside print:text-sm">
-                {{ range .highlights }}
-                <li class="ml-4">{{ . }}</li>
-                {{ end }}
-            </ul>
-        </div>
-        {{ end }}
-    </section>
-
-    <!-- Skills -->
-    <section class="mb-8 print:mb-4">
-        <h2 class="text-2xl font-bold mb-4 print:text-xl">Skills & Technologies</h2>
-        <div class="grid grid-cols-2 gap-4 print:grid-cols-3">
-            {{ range .Params.skills }}
-            <div class="print:text-sm">{{ . }}</div>
-            {{ end }}
-        </div>
-    </section>
-
-    <!-- Publications -->
-    <section class="print:break-inside-avoid">
-        <h2 class="text-2xl font-bold mb-4 print:text-xl">Publications</h2>
-        <ul class="list-disc list-inside print:text-sm">
-            {{ range .Params.publications }}
-            <li class="ml-4">{{ . }}</li>
-            {{ end }}
-        </ul>
-    </section>
+    {{ if .Params.showPrintButton }}
+    <div class="mt-8">
+        <button onclick="window.print()" class="px-4 py-2 bg-primary text-white rounded hover:bg-primary-dark">
+            Download PDF
+        </button>
+    </div>
+    {{ end }}
 </article>
-
-<!-- Print-specific styles -->
-<style>
-@media print {
-    .resume-container {
-        font-size: 11pt;
-        line-height: 1.4;
-    }
-
-    h1 { font-size: 18pt; }
-    h2 { font-size: 14pt; }
-    h3 { font-size: 12pt; }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .page-break { page-break-before: always; }
-}
-</style>
 {{ end }}
