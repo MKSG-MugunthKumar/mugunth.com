@@ -12,12 +12,11 @@ experience:
   # Add more experiences...
 
 skills:
-  - "Swift, SwiftUI, Objective-C"
-  - "Kotlin and Kotlin Multiplatform"
-  - "Python and Django"
-  - "C# .NET"
+  - Swift, SwiftUI, Objective-C
+  - Python and Django
+  - C# .NET
   - "Docker, Kubernetes"
-  - "AWS and Azure"
+  - AWS and most other cloud services
 
 publications:
   - "iOS 5 Programming: Pushing the Limits"
