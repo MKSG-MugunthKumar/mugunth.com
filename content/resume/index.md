@@ -25,3 +25,4 @@ publications:
 ---
 
 Computer science postgraduate with nearly 20 years of experience in full-stack software architecture, design, and development. Managed software engineering teams for over a decade, alternating between people management and hands-on roles while building and mentoring high-performance teams.
+I'm equally hands-on on iOS, python/Django and a little bit of Android.
