@@ -2,6 +2,7 @@
 name = "resume-pdf-generator"
 main = "src/worker.js"
 compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]  # Add this line
 
 [triggers]
 crons = ["0 0 * * *"] # Regenerate PDF daily at midnight
