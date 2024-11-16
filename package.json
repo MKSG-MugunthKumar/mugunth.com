@@ -1,10 +1,13 @@
 {
-  "name": "mugunth.com",
+  "name": "mugunth-website",
   "version": "1.0.0",
-  "keywords": [],
-  "author": "MK",
-  "license": "ISC",
-  "description": "Mugunth's personal website",
+  "description": "Personal website of Mugunth Kumar",
+  "private": true,
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server",
+    "clean": "rm -rf public resources"
+  },
   "dependencies": {
     "@cloudflare/puppeteer": "latest",
     "autoprefixer": "^10.4.16",
