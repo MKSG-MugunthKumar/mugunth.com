@@ -1,5 +1,5 @@
 ---
-title: "Hero"
+title: "Mugunth Kumar (MK)"
 layout: "simple"
 featureImage: "/img/mk-3s.jpg"
 sharingLinks: false
