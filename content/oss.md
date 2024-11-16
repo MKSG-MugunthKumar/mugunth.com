@@ -15,13 +15,23 @@ I'm passionate about contributing to open source software and sharing knowledge 
 
 #### ask-claude
 
-I built `ask-claude`. It is available on Github [here](https://github.com/MKSG-MugunthKumar/ask-claude)
+I built `ask-claude`. It is available on GitHub [here](https://github.com/MKSG-MugunthKumar/ask-claude)
 
 
 It is a shell function that leverages Generative AI Model, Claude by Anthropic to generate contextually accurate terminal commands for macOS and Linux systems. Simply describe what you want to do, and get the correct command for your specific OS and version!
 
 > Because everyone deserves a helping hand in the terminal, only if they know how to exit vim 😉 - MK
 
+### Full Stack Development
+I'm currently developing The Neural Library, a comprehensive web and mobile application designed for book enthusiasts to manage their reading lists effectively. This full-stack application helps readers organize their To Be Read (TBR) lists, track reading progress, and discover new books.
+
+The tech stack includes:
+- Backend: Python & Django
+- Frontend: React with Tailwind CSS
+- Database: PostgreSQL
+- Mobile: Swift and Kotlin (Native Stack on both platforms)
+
+The project emphasizes clean architecture, modern UI/UX principles, and robust API design. Select components of this project will be open-sourced in the coming months to benefit the developer community.
 
 ### Mobile Development
 

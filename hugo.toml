@@ -43,7 +43,7 @@ title = "Mugunth Kumar (MK)"
     image = "img/mk.jpg"
     headline = "Engineering Manager & Principal Engineer"
     links = [
-      {Github = "https://github.com/MKSG-MugunthKumar"},
+      {GitHub = "https://github.com/MKSG-MugunthKumar"},
         {LinkedIn = "https://www.linkedin.com/in/mugunthkumar/"},
         {Email = "mailto:contact-mk@mfamily.club"},
     ]
@@ -59,7 +59,7 @@ title = "Mugunth Kumar (MK)"
   weight = 40
 
 [[menu.main]]
-  name = "Github"
+  name = "GitHub"
   pageRef = "oss"
   weight = 50
 
