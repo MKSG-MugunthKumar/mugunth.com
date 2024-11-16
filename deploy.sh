@@ -1,13 +1,16 @@
 #!/usr/bin/env fish
 
+# Clean up previous build
+rm -rf node_modules public resources
+
 # Install dependencies
 npm ci
-
-# Update submodules
 git submodule update --init --recursive
-
-# Build the site
 hugo --gc --minify
 
-# Test locally
-hugo server
+## Test Locally
+hugo server -D --disableFastRender
+
+## Deploy Resume PDF Generator Worker
+cd resume-pdf-generator
+wrangler deploy

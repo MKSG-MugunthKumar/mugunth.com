@@ -35,13 +35,21 @@ theme = "congo"
     showWordCount = false
 
   [params.profile]
-    description = """
-    Engineering Manager & Principal Engineer with nearly 20 years of experience in
-    full-stack software architecture, design, and development. Managed software engineering
-    teams for over a decade, building and mentoring high-performance teams.
-    """
+    avatar = "img/mk.jpg"
     subtitle = "Engineering Manager & Principal Engineer"
+    description = """
+    I'm Mugunth Kumar (MK), an engineering leader with nearly 20 years of experience in software architecture, design, and development. Originally from India, I moved to Singapore for my higher education and a decade later, relocated to Melbourne, Australia, restarting my career, and moved up to a Principal Engineer. I bring a global perspective to technology leadership, having built and led successful teams across Asia-Pacific.
 
+    ![Three Sisters, Blue Mountains](img/mk-3s.jpg)
+
+    What drives me:
+    * **Open-mindedness**: Embracing diverse perspectives and innovative solutions
+    * **Continuous Growth**: Committed to personal and team development
+    * **Data-Driven Leadership**: Making decisions based on metrics and measurable outcomes
+    * **Empathy**: Understanding that technical excellence and human connection go hand in hand
+    * **Environmental Ethics**: Advocating for sustainable technology practices
+    * **Equality**: Building inclusive teams where everyone has a voice
+    """
   # Author information
   [params.author]
     name = "Mugunth Kumar"
