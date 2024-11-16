@@ -2,7 +2,6 @@ baseURL = "https://mugunth.com/"
 defaultContentLanguage = "en"
 languageCode = "en"
 title = "Mugunth Kumar (MK)"
-theme = "congo"
 
 [[module.imports]]
   path = "github.com/jpanther/congo/v2"
@@ -40,11 +39,11 @@ theme = "congo"
   # Author information
   [params.author]
     name = "Mugunth Kumar"
-    email = "contact@mfamily.club"
+    email = "contact-mk@mfamily.club"
     location = "Melbourne, Australia"
     image = "img/mk.jpg"
     headline = "Engineering Manager & Principal Engineer"
-    bio = """
+    description = """
     I'm Mugunth Kumar (MK), an engineering leader with nearly 20 years of experience in software architecture, design, and development. Originally from India, I moved to Singapore for my higher education and a decade later, relocated to Melbourne, Australia, restarting my career, and moved up to a Principal Engineer. I bring a global perspective to technology leadership, having built and led successful teams across Asia-Pacific.
 
     ![Three Sisters, Blue Mountains](/img/mk-3s.jpg)

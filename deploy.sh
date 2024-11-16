@@ -2,10 +2,10 @@
 
 # Clean up previous build
 rm -rf node_modules public resources
-
-# Install dependencies
+rm go.mod go.sum
+hugo mod init github.com/MKSG-MugunthKumar/mugunth.com
+hugo mod get -u
 npm ci
-git submodule update --init --recursive
 hugo --gc --minify
 
 ## Test Locally
