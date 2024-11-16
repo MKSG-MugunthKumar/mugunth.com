@@ -45,18 +45,8 @@ theme = "congo"
   # Author information
   [params.author]
     name = "Mugunth Kumar"
-    email = "mugunth@mfamily.club"
+    email = "contact@mfamily.club"
     location = "Melbourne, Australia"
-
-[[menu.main]]
-  name = "About"
-  pageRef = "about"
-  weight = 10
-
-[[menu.main]]
-  name = "Experience"
-  pageRef = "experience"
-  weight = 20
 
 [[menu.main]]
   name = "Resume"
