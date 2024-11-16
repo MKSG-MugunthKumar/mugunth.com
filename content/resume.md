@@ -72,14 +72,12 @@ What drives me:
 
 ### Leadership Competencies
 - Team Building & Mentoring
-- Agile Project Management
 - Cross-Functional Communication
 - Remote Team Leadership
 - Inclusive Hiring Practices
 
 ## Publications & Speaking
-- [Author of iOS Programming: Pushing the Limits series (3 editions)] (https://amzn.to/4etLUA5)
-- International conference speaker on software development and team leadership
+I'm an author of programming books and have spoken at international conferences. Here are some of my [works](/publications):
 
 ## Philosophy
 I believe in Kaizen (continuous improvement) and occasional Kaikaku (radical change) when needed. My leadership style focuses on transparency, data-driven decisions, and fostering an environment where both technical excellence and human connections thrive.

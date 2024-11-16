@@ -4,6 +4,9 @@ languageCode = "en"
 title = "Mugunth Kumar (MK)"
 theme = "congo"
 
+[[module.imports]]
+  path = "github.com/jpanther/congo/v2"
+
 [params]
   description = "Engineering Manager & Principal Engineer"
 
@@ -34,13 +37,17 @@ theme = "congo"
     showTaxonomies = false
     showWordCount = false
 
-  [params.profile]
-    avatar = "img/mk.jpg"
-    subtitle = "Engineering Manager & Principal Engineer"
-    description = """
+  # Author information
+  [params.author]
+    name = "Mugunth Kumar"
+    email = "contact@mfamily.club"
+    location = "Melbourne, Australia"
+    image = "img/mk.jpg"
+    headline = "Engineering Manager & Principal Engineer"
+    bio = """
     I'm Mugunth Kumar (MK), an engineering leader with nearly 20 years of experience in software architecture, design, and development. Originally from India, I moved to Singapore for my higher education and a decade later, relocated to Melbourne, Australia, restarting my career, and moved up to a Principal Engineer. I bring a global perspective to technology leadership, having built and led successful teams across Asia-Pacific.
 
-    ![Three Sisters, Blue Mountains](img/mk-3s.jpg)
+    ![Three Sisters, Blue Mountains](/img/mk-3s.jpg)
 
     What drives me:
     * **Open-mindedness**: Embracing diverse perspectives and innovative solutions
@@ -50,16 +57,21 @@ theme = "congo"
     * **Environmental Ethics**: Advocating for sustainable technology practices
     * **Equality**: Building inclusive teams where everyone has a voice
     """
-  # Author information
-  [params.author]
-    name = "Mugunth Kumar"
-    email = "contact@mfamily.club"
-    location = "Melbourne, Australia"
+    links = [
+      {Github = "https://github.com/MKSG-MugunthKumar"},
+        {LinkedIn = "https://www.linkedin.com/in/mugunthkumar/"},
+        {Email = "mailto:contact-mk@mfamily.club"},
+    ]
 
 [[menu.main]]
   name = "Resume"
   pageRef = "resume"
   weight = 30
+
+[[menu.main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 40
 
 [[menu.main]]
   name = "Contact"
