@@ -1,0 +1,12 @@
+# wrangler.toml
+name = "resume-pdf-generator"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+[triggers]
+crons = ["0 0 * * *"] # Regenerate PDF daily at midnight
+
+[env.production]
+vars = { SITE_URL = "https://mugunth.com" }
+
+# Remove the routes section as it's not needed for this setup
