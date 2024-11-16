@@ -1,13 +1,11 @@
 ---
-title: "Contact"
+title: "Get in Touch"
 layout: "simple"
 sharingLinks: false
 showDate: false
 showAuthor: false
 showPagination: false
 ---
-
-## Get in Touch
 
 I'm always interested in hearing about new opportunities and connecting with fellow technology enthusiasts. Feel free to reach out through any of these channels:
 

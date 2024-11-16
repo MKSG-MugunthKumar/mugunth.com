@@ -1,13 +1,11 @@
 ---
-title: "Publications & Speaking"
+title: "Publications"
 layout: "simple"
 sharingLinks: false
 showDate: false
 showAuthor: false
 showPagination: false
 ---
-
-## Publications & Speaking
 
 - My [Amazon Author Profile](https://amzn.to/4hPdRFA)
 - Original English Version [iOS Programming: Pushing the Limits](https://amzn.to/4etLUA5)

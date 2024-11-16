@@ -7,14 +7,13 @@ title = "Mugunth Kumar (MK)"
   path = "github.com/jpanther/congo/v2"
 
 [params]
-  description = "Engineering Manager & Principal Engineer"
 
   [params.homepage]
     layout = "profile"
     showRecent = false
 
   [params.header]
-    layout = "hybrid"
+    layout = "profile"
     showTitle = true
 
   [params.footer]
@@ -38,24 +37,11 @@ title = "Mugunth Kumar (MK)"
 
   # Author information
   [params.author]
-    name = "Mugunth Kumar"
+    name = "Mugunth Kumar (He/Him)"
     email = "contact-mk@mfamily.club"
     location = "Melbourne, Australia"
     image = "img/mk.jpg"
     headline = "Engineering Manager & Principal Engineer"
-    description = """
-    I'm Mugunth Kumar (MK), an engineering leader with nearly 20 years of experience in software architecture, design, and development. Originally from India, I moved to Singapore for my higher education and a decade later, relocated to Melbourne, Australia, restarting my career, and moved up to a Principal Engineer. I bring a global perspective to technology leadership, having built and led successful teams across Asia-Pacific.
-
-    ![Three Sisters, Blue Mountains](/img/mk-3s.jpg)
-
-    What drives me:
-    * **Open-mindedness**: Embracing diverse perspectives and innovative solutions
-    * **Continuous Growth**: Committed to personal and team development
-    * **Data-Driven Leadership**: Making decisions based on metrics and measurable outcomes
-    * **Empathy**: Understanding that technical excellence and human connection go hand in hand
-    * **Environmental Ethics**: Advocating for sustainable technology practices
-    * **Equality**: Building inclusive teams where everyone has a voice
-    """
     links = [
       {Github = "https://github.com/MKSG-MugunthKumar"},
         {LinkedIn = "https://www.linkedin.com/in/mugunthkumar/"},
@@ -73,9 +59,19 @@ title = "Mugunth Kumar (MK)"
   weight = 40
 
 [[menu.main]]
+  name = "Github"
+  pageRef = "oss"
+  weight = 50
+
+[[menu.main]]
+  name = "Values"
+  pageRef = "values"
+  weight = 60
+
+[[menu.main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 50
+  weight = 70
 
 [markup.highlight]
   noClasses = false

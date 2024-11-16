@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Mugunth Kumar (MK)"
 layout: "simple"
 sharingLinks: false
 showDate: false
@@ -7,12 +7,7 @@ showAuthor: false
 showPagination: false
 ---
 
-# Mugunth Kumar (MK)
 Engineering Manager & Principal Engineer
-
-{{< button href="/resume.pdf" target="_self" >}}
-Download PDF Version
-{{< /button >}}
 
 ## About Me
 
@@ -84,4 +79,9 @@ I believe in Kaizen (continuous improvement) and occasional Kaikaku (radical cha
 
 {{< button href="/contact" >}}
 Get in Touch
+{{< /button >}}
+
+
+{{< button href="/resume.pdf" target="_self" >}}
+Download a PDF Version
 {{< /button >}}
